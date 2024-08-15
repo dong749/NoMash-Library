@@ -1,6 +1,7 @@
 <script setup>
 // eslint-disable-next-line no-unused-vars
 import JSON from './components/JSON.vue'
+import Form from './components/Form.vue'
 </script>
 
 <template>
@@ -13,7 +14,8 @@ import JSON from './components/JSON.vue'
   </header> -->
 
   <main>
-    <JSON />
+    <!-- <JSON /> -->
+    <Form />
   </main>
 </template>
 
