@@ -101,8 +101,23 @@
         </form>
       </div>
     </div>
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <DataTable
+          :value="submittedCards"
+          class="p-datatable-gridlines"
+          v-if="submittedCards.length"
+        >
+          <Column field="username" header="username"></Column>
+          <Column field="password" header="password"></Column>
+          <Column field="isAustralian" header="Australian Resident"></Column>
+          <Column field="gender" header="gender"></Column>
+          <Column field="reason" header="reason for joining"></Column>
+        </DataTable>
+      </div>
+    </div>
   </div>
-  <div class="row mt-5" v-if="submittedCards.length">
+  <!-- <div class="row mt-5" v-if="submittedCards.length">
     <div class="d-flex flex-wrap justify-content-start">
       <div
         v-for="(card, index) in submittedCards"
@@ -122,11 +137,13 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import DataTable from 'primevue/datatable'
+import Column from 'primevue/column'
 
 const formData = ref({
   username: '',
