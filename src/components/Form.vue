@@ -250,6 +250,15 @@ const validateReason = (blur) => {
     errors.value.reason = null
   }
 }
+
+// const validateAustraliaResident = () => {
+//   const isAustralian = formData.value.isAustralian
+//   if (!isAustralian){
+//     errors.value.isAustralian = false
+//   }else{
+//     errors.value.gender = false
+//   }
+// }
 </script>
 
 <style scoped>
