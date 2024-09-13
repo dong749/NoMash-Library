@@ -1,4 +1,5 @@
 <script setup>
+<<<<<<< HEAD
 // eslint-disable-next-line no-unused-vars
 import JSON from './components/JSON.vue'
 import Form from './components/Form.vue'
@@ -21,6 +22,26 @@ import Form from './components/Form.vue'
 
 <!-- <style scoped>
 header {
+=======
+import JSONLab from './components/JSONLab.vue'
+import BHeader from './components/BHeader.vue'
+import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
+</script>
+
+<template>
+  <header>
+    <BHeader />
+  </header>
+
+  <main>
+    <LibraryRegistrationForm />
+    <!-- <JSONLab /> -->
+  </main>
+</template>
+
+<style scoped>
+/* header {
+>>>>>>> remotes/NoMash-Library/week-4-end
   line-height: 1.5;
 }
 
@@ -45,5 +66,10 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
 }
 </style> -->
+=======
+} */
+</style>
+>>>>>>> remotes/NoMash-Library/week-4-end
