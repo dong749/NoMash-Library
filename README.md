@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # renxudong-library
-=======
-# NoMash-Library
->>>>>>> remotes/NoMash-Library/week-4-end
 
 This template should help get you started developing with Vue 3 in Vite.
 

@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "renxudong-library",
-=======
-  "name": "nomash-library",
->>>>>>> remotes/NoMash-Library/week-4-end
   "version": "0.0.0",
   "private": true,
   "type": "module",
